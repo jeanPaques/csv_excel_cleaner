@@ -9,7 +9,7 @@ OUTPUT_FILE = "merged.xlsx"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 output_path = os.path.join(OUTPUT_DIR, OUTPUT_FILE)
 
-def merge_all_files_streaming():
+def merge_all_files():
     wb_out = Workbook()
     ws_out = wb_out.active
 
